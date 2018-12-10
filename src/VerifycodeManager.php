@@ -19,7 +19,7 @@ class VerifycodeManager {
 		$this->input = array_merge($this->input, $input);
     }
     
-    public function validateSendable() {
+    public static function validateSendable() {
         return self::generateCode();
     }
 

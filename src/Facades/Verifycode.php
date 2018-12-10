@@ -6,6 +6,6 @@ use Illuminate\Support\Facades\Facade;
 class Verifycode extends Facade {
 	protected static function getFacadeAccessor()
 	{
-			return 'verifycode';
+			return 'Cenzimo\\Verifycode\\Verifycode';
 	}
 }

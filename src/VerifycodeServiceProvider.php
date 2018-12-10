@@ -35,4 +35,5 @@ class VerifycodeServiceProvider extends ServiceProvider
             __DIR__.'/config.php', 'verifycode'
         );
     }
+
 }

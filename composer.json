@@ -18,6 +18,7 @@
                 "Cenzimo\\Verifycode\\VerifycodeServiceProvider"
             ],
             "aliases": {
+                "Verifycode": "Cenzimo\\Verifycode\\Facades",
                 "VerifycodeManager": "Cenzimo\\Verifycode\\Facades"
             }
         }
