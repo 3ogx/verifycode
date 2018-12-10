@@ -1,0 +1,33 @@
+{
+    "name": "cenzimo/verifycode",
+    "description": "A mobile phone number verify code based on laravel",
+    "require": {
+        "php": "7.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Cenzimo\\Verifycode\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+                "Cenzimo\\Verifycode\\VerifycodeServiceProvider"
+            ],
+            "aliases": {
+                "VerifycodeManager": "Cenzimo\\Verifycode\\Facades"
+            }
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "beiwei",
+            "email": "3ogx.com@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
