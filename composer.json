@@ -2,7 +2,7 @@
     "name": "cenzimo/verifycode",
     "description": "A mobile phone number verify code based on laravel",
     "require": {
-        "php": "7.3.0"
+        "php": "5.3.0"
     },
     "autoload": {
         "classmap": [
